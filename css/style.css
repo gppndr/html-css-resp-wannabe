@@ -133,3 +133,30 @@ img {
         width: 100%;
     }
  }
+
+ @media screen and (max-width: 480px) {
+    .row{
+        flex-wrap: wrap;
+    }
+    .container .col{
+        width: 100%;
+    }
+    .container .card{
+        padding-bottom: 4rem;
+    }
+    .container .card p{
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+    .container .card h3{
+        font-size: 1.8rem;
+    }
+    .why-us{
+        background-color: #222222;
+    }
+    .steps, .why-us{
+        margin: 0;
+        padding-top: 3rem;
+    }
+ }
+
